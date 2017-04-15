@@ -1,0 +1,68 @@
+/* CSS reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td, i {
+	margin: 0;
+	padding: 0;
+	}
+body {
+	font: 12px/1.5 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif,Microsoft YaHei UI;
+	}
+ol, ul {
+	list-style: none;
+	}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+	}
+fieldset, img {
+	border: 0;
+	}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	}
+input, button, textarea, select {
+	font-size: 100%
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+    text-align: center;
+}
+caption, th {
+	text-align: left;
+	}
+caption, th, optgroupaddress, cite, code, dfn, em, var, b, i {
+	font-style: normal;
+	font-weight: normal;
+	}
+code, kbd, samp, tt {
+	font-size: 100%;
+	}
+sup, sub {
+	font-size: 100%;
+	vertical-align: baseline;
+	}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+	}
+a:link, a:visited, ins {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	}
+.clr{
+	clear:both;
+	}
+.mar10{
+	margin-top:10px;
+	}
+.none{
+	display:none;
+	}
+
+/* CSS reset */
+

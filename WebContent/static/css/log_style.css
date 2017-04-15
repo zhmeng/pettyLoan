@@ -1,0 +1,80 @@
+body{
+	background:#0056ab;
+	}
+.log-wrapper{
+	background:url(../images/body-bg.png) no-repeat top center;
+	margin:0 auto;
+	height:760px;
+	padding:193px 0 0 26px;
+	clear:both;
+	}
+.login{
+	background:url(../images/login-bg.png) no-repeat;
+	width:560px;
+	height:393px;
+	margin:0 auto;
+	padding-top:20px;
+	}
+.login-con{
+	padding:115px 0 0 170px;
+	}
+.log-p,.log-text{
+	height:34px;
+	margin-bottom:12px;
+	}
+.log-p input{
+	border:#dadada solid 1px;
+	padding:7px 4px;
+	width:174px;
+	}
+.log-p  span{
+	float:left;
+	line-height:34px;
+	}
+.log-p .yzm{
+	width:92px;
+	float:left;
+	margin-right:12px;
+	}
+.log-img a{
+	color:#015fc6;
+	}
+.log-p .user{
+	background:url(../images/user-bg.png) no-repeat left center;
+	padding-left:28px;
+	}
+.log-p .password{
+	background:url(../images/pass-bg.png) no-repeat left center;
+	padding-left:28px;
+	}
+.log-text{
+	padding-left:52px;
+	}
+.log-text a{
+	color:#015fc6;
+	}
+.log-in{
+	background:url(../images/log-btn.png) no-repeat;
+	}
+.log-in:hover{
+	background:url(../images/log-btn.png) no-repeat 0 -42px;
+	}
+.log-res{
+	background:url(../images/log-btn.png) no-repeat 0 -84px;
+	}
+.log-res:hover{
+	background:url(../images/log-btn.png) no-repeat 0 -126px;
+	}
+.log-btn-pub{
+	cursor:pointer;
+	border:0;
+	width:88px;
+	height:32px;
+	line-height:32px;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+	margin-right:12px;
+	display:inline-block;
+	}

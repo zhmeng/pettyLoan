@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localization xmlns="obout:fileuploadprogress:localization-schema">
+  <field name="uploaded" value="上传" />
+  <field name="rejected" value="拒绝" />
+  <field name="session-lost" value="会话丢失" />
+  <field name="total" value="大小" />
+  <field name="files" value="files" />
+  <field name="file" value="file" />
+  <field name="from" value="from" />
+  <field name="uploading-file" value="上传文件" />
+  <field name="last-uploaded-file" value="Last uploaded file" />
+  <field name="elapsed-time" value="已用" />
+  <field name="estimated-time" value="预计" />
+  <field name="speed" value="速率" />
+</localization>
+
+

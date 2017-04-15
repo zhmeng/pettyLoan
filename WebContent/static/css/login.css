@@ -1,0 +1,19 @@
+body { background:#c9c9c9 url(./images/login/bg-body.gif) 0 0 repeat-x; font: normal normal 100% Helvetica, Arial, sans-serif; font-size: 12px; color: #666; margin:0; padding:0; text-align:center; }
+a img { border:none; }
+p { margin:5px 0; padding:0; }
+#login { width:447px; height:411px; padding-top:60px; margin: 0 auto; background:url(./images/login/bg-login.jpg) 0 115px no-repeat; text-align:left; }
+#logo { margin:0 0 10px 0; height: 56px; background:url(./images/login/login-logo.gif) 0 0 no-repeat; text-indent:-9999em; }
+#login-box { height:190px; padding-top:77px; padding-left:100px; margin-bottom:15px; }
+#login-box .input { width: 130px; padding: 1px; }
+#login-box .input2 { width: 75px; padding: 1px; }
+#login-box label { color:#FFF; padding-right:5px; }
+#login-box .login-btn { margin-top: 15px; padding-left:55px; }
+.btn-login,  .btn-cancel { width: 74px; height: 24px; border: none; cursor: pointer; color: #000; font-size: 14px; font-weight:bold; }
+.btn-login { background:url(./images/login/login-btn.jpg) 0 0 no-repeat; }
+.btn-cancel { background:url(./images/login/bg-login-btn.gif) 0 -25px no-repeat; color: #000; }
+#login-foot { text-align: center; }
+address { font-style:normal; }
+#login-box p { margin:0 0 20px; padding: 0; }
+.red { color:red; }
+ul, li { margin:0; padding:0; list-style:none; }
+.tips { position: absolute; right:0; top:0; background:#FFC; border:1px solid red; padding:5px; text-align:center; }

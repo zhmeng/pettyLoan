@@ -1,0 +1,73 @@
+﻿body   
+{
+	margin: 0;
+    padding: 0;
+    font-size:12px;
+}
+
+.login_table
+{
+	left:0px; 
+	top:0px; 
+	height:600px;
+	width:100%;
+}
+
+.dl_table {
+	BORDER-RIGHT: #5895d0 0px solid; 
+	PADDING-RIGHT: 0px; 
+	BORDER-TOP: #5895d0 0px solid; 
+	PADDING: 0px; 
+	MARGIN: 0px auto; 
+	BORDER-LEFT: #77b3ee 0px solid;  
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: #5895d0 0px solid;  
+	position:relative; 
+	left:-30px; 
+	top:6px; 
+}
+
+.logo_tu{
+	position:relative; 
+	left:-30px; 
+	top:0px;
+	width:356px; 
+	height:140px; 
+	padding:0px; 
+	margin-right:35px; 
+}
+
+.dl_l{width:14px; height:224px; padding:0px; margin:0px;}
+.dl_m{ background:url(oaimage/login/dl_m.gif) repeat-x 0px 0px; width: 319px; padding:0px; margin:0px;}
+.dl_r{ background:url(oaimage/login/dl_r.gif) no-repeat; width:10px; height:224px; padding:0px; margin:0px;}
+.font_denglu{ font-size:14px; font-weight:bold; padding-bottom:5px; margin:0px;}
+.font_yonghu_12px{ font-size:12px; padding-bottom:5px; margin:0px;}
+.ButtonBL {
+	BORDER-RIGHT: #5c5d61 1px outset; 
+	PADDING-RIGHT: 4px; 
+	BORDER-TOP: #c5c5c5 0px outset; 
+	DISPLAY: inline; 
+	PADDING-LEFT: 6px; 
+	FONT-WEIGHT: normal; 
+	FONT-SIZE: 12px;  
+	PADDING-BOTTOM: 2px; 
+	MARGIN: 1px 0px 0px; 
+	BORDER-LEFT: #c5c5c5 0px outset; 
+	COLOR: #ffffff; 
+	PADDING-TOP: 1px; 
+	BORDER-BOTTOM: #5c5d61 1px outset; 
+	HEIGHT: 19px
+}
+
+.rep_a
+{
+	color:Black;
+	text-decoration:none;
+	font-size:12px;
+}
+.rep_a:hover
+{
+	color:#003399;
+	text-decoration:underline;
+	font-size:12px;
+}

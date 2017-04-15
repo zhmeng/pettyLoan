@@ -1,0 +1,391 @@
+/*<meta http-equiv="Content-Type" content="text/html; charset=gb2312">*/
+
+/* --链接控制�?- */
+img {border:none;}
+/* 链接其他状��（丢�般情况） */
+A:link,A:visited,A:active {
+	text-decoration:none;
+	color:#555555;
+    /* color:#000000; */
+    
+}
+/* 鼠标在链接上（一般情况） */
+A:hover {
+	text-decoration:none;
+	color:#d11d29;
+}
+
+/* 链接其他状��（页次信息�?*/
+A.Page:link，A.Page:visited，A.Page:active {
+	text-decoration: none;
+	color:#000000;
+	font-size:11pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+/* 鼠标在链接上（页次信息） */
+A.Page:hover {
+	text-decoration: none;
+	color:#0040D1;
+	font-size:11pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+/*--表格控制�?-*/
+/*表格字体*/
+table,td,tr
+{
+	FONT-SIZE: 10.5pt;
+	line-height:140%;
+} 
+/*表格样式1*/
+.table01
+{
+	background-color:#CDCDCD;
+	width:100%;
+    text-align:center;
+}
+/* 查看详细的表�?*/
+.table_detail
+{
+	background-color:#CDCDCD;
+	width:100%;
+    text-align:left;
+} 
+/*表格样式2*/
+.table02
+{
+	background-color:#CDCDCD;
+	width:96%;
+} 
+/*处理框架HandleTop页面背景设置*/
+.handletop
+{
+	background-image:url(../images/DetailHeader1.gif);
+	background-repeat:no-repeat;
+	background-position:top;
+} 
+/*处理框架HandleMain页面背景设置*/
+.HandleMain{
+	background-color:#F2FBFF;
+}
+/*自动换行表格背景*/
+.table01_word_wrap
+{
+	TABLE-LAYOUT: fixed;
+	background-color:#7EBE62;
+}
+/*控制表格中某单元格的文字自动换行--单元格样�?/
+td.WordWrap
+{
+	WORD-WRAP: break-word;
+}
+/*表格间隔�?*/
+.alternate_line1 {
+    background-color: #FFFFFF;
+    text-valign:center;
+	padding-top:4px;
+	padding-left:3px;
+	padding-right:3px;
+}
+/*表格间隔�?*/
+.alternate_line2 {
+    background-color:#F8FBFC;
+    text-valign:center;
+	padding-top:4px;
+	padding-left:3px;
+	padding-right:3px;
+}
+/*表格间隔行鼠标放上后的样�?/
+.alternate_line_mouseover {
+    background-color: #C9D4AC;
+    text-valign:center;
+	padding-top:4px;
+	padding-left:3px;
+	padding-right:3px;
+}
+/*表格标题*/
+.table_title {
+	background-color:#cfa74a;
+	font-weight:bold;
+	padding-top:4px;
+	color:#FFFFFF;
+	text-align: center;
+}
+/*提示信息标题*/
+.table_title2 {
+	HEIGHT: 20px;
+	font-weight:bold;
+	padding-top:3px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:3px;
+	text-align: center;
+	background-image: url(../images/table_titlebg.gif);
+
+}
+/*表格中的标题单元�?/
+.td_title {
+    background-color:#E8F1F6;
+	padding-top:3px; 
+	padding-bottom:3px;
+}
+/*表格中的标题单元�?/
+.td_title2 {
+    background-color:#E8F1F6;
+    text-align:right;
+	padding-top:0px; 
+}
+/*表格中的标题单元�?/
+.td_title3 {
+    background-color:#E8F1F6;
+    text-align:left;
+	padding-top:0px; 
+}
+
+/*表格中的内容单元�?/
+.td_content {
+    background-color:#FFFFF4;
+	padding-top:4px;
+	padding-left:3px;
+	padding-right:3px; 
+}
+/*表格中的内容单元�?Tab)*/
+.td_content2 {
+    background-color:#FFFFF4;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:3px;
+	padding-right:3px;
+}
+/*表格中的内容单元�?居中对齐)*/
+.td_content_center {
+        background-color:#FFFFF4;
+		padding-left:3px;
+		padding-right:3px;
+        text-align:center
+}
+/*表格中的自动换行内容单元�?/
+.td_content_word_wrap
+{
+	WORD-WRAP: break-word;
+	background-color:#FFFFF4;
+	padding-top:4px;
+}
+/*处理框架HandleTop页面背景设置*/
+.handletop
+{
+	background-image:url(../images/topBg2.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+} 
+/*处理框架HandleMain页面背景设置*/
+.HandleMain{
+	background-color:#FFFFFF;
+	overflow: auto;
+	padding-top:15px;
+}
+/*标签行中的间隔单元格*/
+.td_tab_space
+{
+	background-image:url(../images/TabLine1.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+/*标签行中的右边的空单元格*/
+.td_tab_right
+{
+	background-image:url(../images/TabLine1.gif);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+/*标签单元格（外围未��中�?/
+.td_tab1
+{
+	background-image:url(../images/Tab1.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:6px;
+	text-align:center;
+	color:#9DACB4;
+}
+/*标签单元格（外围选中�?/
+.td_tab2
+{
+	background-image:url(../images/Tab2.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	padding-top:6px;
+	text-align:center;
+}
+/*标签框包含所有内容的单元�?/
+.AllTab {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#F5FAFD;
+}
+/*--字体控制�?-*/
+/*页面底部说明文字*/
+.Comment
+{
+	font-size:9pt;
+	color:#000000;
+}
+/*重要信息*/
+.important {
+	color:#F45E00;
+}
+/*左边页面的菜�?/
+.MenuLeft {
+	color:#000000;
+	font-size:10.5pt;
+}
+/*页次信息*/
+.Page
+{
+	font-size:11pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#F37F00;
+}
+/*文章标题*/
+.Title
+{
+	font-size:12pt;
+	font-weight:bold;
+}
+/*文章小标�?/
+.SubTitle
+{
+	font-weight:bold;
+}
+/*9磅字�?/
+.Font9
+{
+	font-size:9pt;
+}
+/*12磅字�?/
+.Font12
+{
+	font-size:12pt;
+	font-weight:bold;
+}
+/*14磅字�?/
+.Font14
+{
+	font-size:14pt;
+	font-weight:bold;
+}
+/*16磅字�?/
+.Font16
+{
+	font-size:16pt;
+	font-weight:bold;
+}
+.td_title_Ajax {
+	
+}
+
+.address_title{
+	font-size: 12px;
+	font-weight: bold;
+	background-image: url("../images/address_bg.jpg");
+}
+.address{
+		height: 25px;
+		width: 100%;
+		background-image: url('../images/address_bg.jpg');
+		margin-left: 3px;
+		font-size: 14px;
+		font-weight: bold;
+		font-family: 'Microsoft YaHei',Arial,Helvetica,sans-serif,'宋体';
+		line-height: 25px;
+	}
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    background: transparent url('../images/bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 14px  'Microsoft YaHei',Arial,Helvetica,sans-serif,'宋体';
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.button span {
+    background: transparent url('../images/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+
+a.button:active {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+a.button:active span {
+    background-position: bottom right;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+label.error{color: red;font-size:12px;}
+.body{
+	font-family:'Microsoft YaHei',Arial,Helvetica,sans-serif,'宋体'; 
+	font-size:20px;      
+}
+
+/*浮动*/
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{clear: both; content: " "; display: block;}
+
+/*按钮*/
+.btn-jump .btn-orange{font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"����";font-size: 15px;white-space: nowrap;text-align: center;margin:0 6px 0 0;line-height: 12px;display: inline-block;text-decoration: none;padding: 5px 15px;text-transform: uppercase;border: 1px solid #DEDEDE;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px 3px 3px 3px;cursor: pointer;background: #c73a38;/*background: -moz-linear-gradient(top, #cfa74a 0%, #d6b76f 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cfa74a), color-stop(100%,#d6b76f));background: -webkit-linear-gradient(top, #cfa74a 0%,#d6b76f 100%);background: -o-linear-gradient(top, #cfa74a 0%,#d6b76f 100%);background: -ms-linear-gradient(top, #cfa74a 0%,#d6b76f 100%);background: linear-gradient(top, #cfa74a 0%,#d6b76f 100%);*/*background: #cfa74a;border-color: #a90101;color: #fff;position: relative;/*text-shadow: 0 1px 0 #1d4a5f;-webkit-box-shadow: 0 1px 1px #c8a85f, inset 0 1px 0 #ceab5d;-moz-box-shadow: 0 1px 1px #c8a85f, inset 0 1px 0 #ceab5d;box-shadow: 0 1px 1px #c8a85f, inset 0 1px 0 #ceab5d;*/}
+.btn-jump .btn-orange:hover{background: #c7201e;/*background: -moz-linear-gradient(top, #d6b76f 0%, #cfa74a 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d6b76f), color-stop(100%,#cfa74a));background: -webkit-linear-gradient(top, #d6b76f 0%,#cfa74a 100%);background: -o-linear-gradient(top, #d6b76f 0%,#cfa74a 100%);background: -ms-linear-gradient(top, #d6b76f 0%,#cfa74a 100%);background: linear-gradient(top, #4262A2 0%,#cfa74a 100%);*background: #d6b76f;*/border-color: #a90101;/*text-shadow: 0 1px 0 #21607d;-webkit-box-shadow: 0 1px 1px #d4d4d4, inset 0 1px 0 #ffd211;-moz-box-shadow: 0 1px 1px #d4d4d4, inset 0 1px 0 #ffd211;box-shadow: 0 1px 1px #d4d4d4, inset 0 1px 0 #ceab5d;*/}
+.btn-jump .btn-orange:active{color: #a06a0e;/*text-shadow: 0 1px 0 #d69e3e;*/}
+
+.btn-jump .btn-simple{font-size: 15px;text-align: center;margin:0 6px 0 0;display: inline-block;padding: 5px 15px;text-transform: uppercase;border: 1px solid #DEDEDE;cursor: pointer;background: #cfa74a;border-color: #d4b265 #c8a964 #bea15f;color: #fff;position: relative;}
+.btn-jump .btn-simple:hover{background: #d6b76f;border-color: #d4b265 #c8a964 #bea15f;text-shadow: 0 1px 0 #21607d;}
+.btn-jump .btn-simple:active{color: #a06a0e;}
+
+.btn-jump .btn-min{font-size: 15px;text-align: center;margin:0;line-height: 12px;display: inline-block;padding: 5px 10px;text-transform: uppercase;border: 1px solid #DEDEDE;cursor: pointer;background: #cfa74a;border-color: #d4b265 #c8a964 #bea15f;color: #fff;position: relative;}
+.btn-jump .btn-min:hover{background: #d6b76f;border-color: #d4b265 #c8a964 #bea15f;text-shadow: 0 1px 0 #21607d;}
+.btn-jump .btn-min:active{color: #a06a0e;}
+
+/*表单控件*/
+.formBox{ overflow:hidden;margin:0 auto;text-align:center;width:600px;font-family: "lucida grande",tahoma,verdana,arial,STHeiTi,simsun,sans-serif;}
+.formBox dl{height:25px;}
+.formBox dl dt{display: inline; float: left;font-size: 14px;line-height: 25px; padding-right: 10px;text-align: right; width: 120px;}
+.formBox dl dt label{color: #000000; cursor: text;font-weight: normal}
+.formBox dl dd{display: inline;float: left;width: 460px;margin:0;padding:0;}
+.formBox dl dd input{float:left;border: 1px solid #C5C5C5; border-radius: 3px 3px 3px 3px;font-size: 14px;height: 25px;line-height: 25px;margin-right: 7px;padding: 2px 10px;width: 185px;}
+.formBox dl dd select{float:left;border: 1px solid #C5C5C5; border-radius: 3px 3px 3px 3px;font-size: 14px;height: 28px;line-height: 28px;*height: 30px;*line-height: 30px;margin-right: 7px;padding: 2px 10px;width: 207px;}
+.formBox dl dd textarea{float:left;border: 1px solid #C5C5C5; border-radius: 3px 3px 3px 3px;font-size: 14px;height:34px;line-height: 28px;margin-right: 7px;padding: 2px 10px;}
+
+.formBox2{ overflow:hidden;margin:0 auto;text-align:center;width:480px;font-family: "lucida grande",tahoma,verdana,arial,STHeiTi,simsun,sans-serif;}
+.formBox2 dl{height:25px;}
+.formBox2 dl dt{display: inline; float: left;font-size: 14px;line-height: 25px; padding-right: 10px;text-align: right; width: 120px;}
+.formBox2 dl dt label{color: #000000; cursor: text;font-weight: normal}
+.formBox2 dl dd{display: inline;float: left;width: 340px;margin:0;padding:0;}
+.formBox2 dl dd input{float:left;border: 1px solid #C5C5C5; border-radius: 3px 3px 3px 3px;font-size: 14px;height: 25px;line-height: 25px;margin-right: 7px;padding: 2px 10px;width: 185px;}
+.formBox2 dl dd select{float:left;border: 1px solid #C5C5C5; border-radius: 3px 3px 3px 3px;font-size: 14px;height: 28px;line-height: 28px;*height: 30px;*line-height: 30px;margin-right: 7px;padding: 2px 10px;width: 207px;}
+.formBox2 dl dd textarea{float:left;border: 1px solid #C5C5C5; border-radius: 3px 3px 3px 3px;font-size: 14px;height: 34px;line-height: 20px;margin-right: 7px;padding: 2px 10px;}
+/*空距�?/
+.bk4{height:4px; font-size:0;}
+.bk5{height:5px; font-size:0;}
+.bk10{height:10px; font-size:0;}
+.bk15{height:15px; font-size:0;}
+.bk20{height:20px; font-size:0;}
+.bk30{height:30px; font-size:0;}
+.bk40{height:40px; font-size:0;}
+.bk50{height:50px; font-size:0;}
+

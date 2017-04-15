@@ -1,0 +1,392 @@
+input.BigButton {
+    background: url("../images/pa/button_bg.gif") repeat scroll 0 0 #F4FBE1;
+    border: 1px solid #6E91C7;
+    font-size: 12pt;
+    height: 24px;
+    margin: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+input.BigButton:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../images/pa/bg_input_btn_hover.png") repeat scroll 0 0 #F4FADF;
+    border-color: #99CC00 #80AA00 #80AA00 #99CC00;
+    border-image: none;
+    border-right: 1px solid #80AA00;
+    border-style: solid;
+    border-width: 1px;
+    color: #395500;
+    font-size: 12pt;
+}
+.TableList {
+    border: 1px solid #DCDCDC;
+    border-collapse: collapse;
+    font-size: 11pt;
+    line-height: 25px;
+    margin:20px 0 0 0;
+}
+.TableList td {
+    padding: 3px 3px 3px 10px;
+}
+.TableList .TableHeader td, .TableList td.TableHeader {
+    background: url("../images/pa/list_hd_bg.png") repeat scroll 0 0 transparent;
+    border-right: 1px solid #DCDCDC;
+    border-top: 1px solid #DCDCDC;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+}
+.TableList .TableLine1 td, .TableList td.TableLine1 {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-top: 1px solid #DCDCDC;
+}
+.TableList .TableLine2 td, .TableList td.TableLine2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #DCDCDC;
+}
+.TableList .TableData td, .TableList td.TableData {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DCDCDC;
+    /* padding:0 0 0 10px; */
+}
+
+.TableList .TableContent td, .TableList td.TableContent {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-top: 1px solid #DCDCDC;
+}
+.TableList .TableFooter td, .TableList .TableControl td, .TableList td.TableFooter, .TableList td.TableControl {
+    background: url("../images/pa/footer_bg.png") repeat scroll left bottom transparent;
+    border-top: 1px solid #DCDCDC;
+}
+.TableList .TableRed td, .TableList td.TableRed {
+    background: none repeat scroll 0 0 #FFEBEB;
+}
+.TableList .TextColor1 td, .TableList td.TextColor1 {
+    color: #FF6600;
+}
+.TableList .TextColor2 td, .TableList td.TextColor2 {
+    color: #FF0000;
+}
+.TableList .TableLeft td, .TableList td.TableLeft {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-top: 1px solid #DCDCDC;
+}
+.TableList .TableRowHover td, .TableList td.TableRowHover {
+    background: none repeat scroll 0 0 #E2E5E6;
+}
+.TableList .TableRowActive td, .TableList td.TableRowActive {
+    background: none repeat scroll 0 0 #7D95A5;
+    color: #FFFFFF;
+}
+.TableData {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+}
+.TableHeader {
+    background: url("../images/pa/list_hd_bg.png") repeat scroll 0 0 transparent;
+    color: #2E2E5A;
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 30px;
+}
+.TableHeader th{
+	border: 1px solid #DCDCDC;
+	text-align:center;
+}
+.TableBlock {
+    border: 1px solid #124164;
+    border-collapse: collapse;
+    font-size: 11pt;
+    line-height: 20px;
+    padding: 3px;
+}
+.TableBlock td {
+    color: #000000;
+    padding: 3px;
+}
+.TableBlock .TableHeader td, .TableBlock td.TableHeader {
+    background: url("../images/pa/list_hd_bg.png") repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #DCDCDC;
+    border-right: 1px solid #606275;
+    color: #124164;
+    font-weight: bold;
+    line-height: 25px;
+}
+.TableBlock .TableLine1 td, .TableBlock td.TableLine1 {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border-bottom: 1px solid #606275;
+    border-right: 1px solid #606275;
+}
+.TableBlock .TableLine2 td, .TableBlock td.TableLine2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #606275;
+    border-right: 1px solid #606275;
+}
+.TableBlock .TableData td, .TableBlock td.TableData {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #606275;
+    border-right: 1px solid #606275;
+}
+.TableBlock .TableContent td, .TableBlock td.TableContent {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-bottom: 1px solid #606275;
+    border-right: 1px solid #606275;
+}
+.TableBlock .TableFooter td, .TableBlock .TableControl td, .TableBlock td.TableFooter, .TableBlock td.TableControl {
+    background: url("../images/pa/footer_bg.png") repeat scroll left bottom transparent;
+    border-top: 1px solid #606275;
+}
+.TableBlock .TableRed td, .TableBlock td.TableRed {
+    background: none repeat scroll 0 0 #FFEBEB;
+}
+.TableBlock .TableLeft td, .TableBlock td.TableLeft {
+    background: none repeat scroll 0 0 #F0F0F0;
+    border-bottom: 1px solid #606275;
+    border-right: 1px solid #606275;
+}
+.TableBlock .TableRowHover td, .TableBlock td.TableRowHover {
+    background: none repeat scroll 0 0 #E2E5E6;
+}
+.TableBlock .TableRowActive td, .TableBlock td.TableRowActive {
+    background: none repeat scroll 0 0 #7D95A5;
+    color: #FFFFFF;
+}
+.small {
+    font-size: 11pt;
+}
+.small1 {
+    color: #000000;
+    font-size: 11pt;
+}
+.big {
+    font-size: 12pt;
+}
+.big1 {
+    color: #000000;
+    font-size: 12pt;
+}
+.big2 {
+    font-size: 18pt;
+}
+.big3 {
+    color: #124164;
+    font-size: 12pt;
+    font-weight: bold;
+}
+.big4 {
+    color: #FF0000;
+}
+.attendance{
+	background: url("../images/pa/attendance.gif") repeat scroll 0 0 transparent;
+}
+input.BigInput, textarea.BigInput {
+    background: url("../images/pa/bg_input_text.png") repeat-x scroll left top white;
+    border: 1px solid #C0BBB4;
+    font-size: 11pt;
+    padding: 1px 5px;
+}
+input.BigInput:hover, textarea.BigInput:hover {
+    background: url("../images/pa/bg_input_text_hover.png") repeat-x scroll left top white;
+    border: 1px solid #99CC00;
+    font-size: 11pt;
+}
+select.BigSelect {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../images/pa/bg_input_text.png") repeat-x scroll left top white;
+    border-color: #C0BBB4 #C0BBB4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid double;
+    border-width: 1px;
+    color: #000066;
+    font-size: 12pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 22px;
+    line-height: normal;
+}
+select.BigSelect:hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../images/pa/bg_input_text_hover.png") repeat-x scroll left top white;
+    border-color: #C0BBB4 #C0BBB4 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid double;
+    border-width: 1px;
+    color: #000066;
+    font-size: 12pt;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 22px;
+    line-height: normal;
+}
+
+/* MessageBox*/
+.MessageBox, .dialog {
+    border: 1px solid #DCDCDC;
+}
+.MessageBox .head, .dialog .head {
+    background: url("../images/pa/list_hd_bg.png") repeat-x scroll left top transparent;
+    height: 30px;
+    overflow: hidden;
+}
+.MessageBox .head .left, .dialog .head .left {
+    width: 0;
+}
+.MessageBox .head .center, .dialog .head .center {
+}
+.MessageBox .head .center .title, .dialog .head .center .title {
+    color: #000000;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.MessageBox .head .center .close, .dialog .head .center .close {
+    background: url("../images/pa/close.png") no-repeat scroll center center transparent;
+    float: right;
+    height: 16px;
+    margin-top: 5px;
+    width: 16px;
+}
+.MessageBox .head .center .close:hover, .dialog .head .center .close:hover {
+    background: url("../images/pa/close_x.png") no-repeat scroll center center transparent;
+}
+.MessageBox .head .right, .dialog .head .right {
+    width: 0;
+}
+.MessageBox .body, .dialog .body {
+    background-color: #FFFFFF;
+    height: 90px;
+}
+.MessageBox .body .left, .dialog .body .left {
+    width: 0;
+}
+.MessageBox .body .center, .dialog .body .center {
+    text-align: center;
+}
+.MessageBox .body .center .msg-content, .dialog .body .center .msg-content {
+    margin: 20px;
+}
+.MessageBox .body .right, .dialog .body .right {
+    width: 0;
+}
+.MessageBox .control, .dialog .control {
+    background-color: #FFFFFF;
+    height: 30px;
+    vertical-align: top;
+}
+.MessageBox .control .left, .dialog .control .left {
+    width: 0;
+}
+.MessageBox .control .center, .dialog .control .center {
+    text-align: center;
+}
+.MessageBox .control .right, .dialog .control .right {
+    width: 0;
+}
+.MessageBox .foot, .dialog .foot {
+    height: 0;
+}
+.MessageBox .foot .left, .dialog .foot .left {
+    width: 0;
+}
+.MessageBox .foot .center, .dialog .foot .center {
+}
+.MessageBox .foot .right, .dialog .foot .right {
+    width: 0;
+}
+.MessageBox .msg {
+    background-color: #FFFFFF;
+    height: 90px;
+}
+.MessageBox .msg .left {
+    width: 0;
+}
+.MessageBox .msg .center {
+    color: #6BAD42;
+    font-size: 16px;
+    padding-left: 90px;
+}
+.MessageBox .msg .right {
+    width: 0;
+}
+.MessageBox .msg .error {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.MessageBox .msg .info {
+    background-image: url("../images/pa/icon64_info.png");
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.MessageBox .msg .warning {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.MessageBox .msg .forbidden {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.MessageBox .msg .stop {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+.MessageBox .msg .blank {
+    height: 40px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.email_list tr{
+	cursor:pointer;
+}
+.email_list tr:hover{
+	color: #cfa74a;
+}
+.email_list th{
+	text-align:left;
+	padding:0 0 0 10px;
+	color:#444;
+	cursor: default;
+}
+.email_list td{
+	border-left:none !important;
+	border-right:none !important;
+	border-top:none !important;
+}
+.email_unread{
+	font-weight: bold;
+}
+.email_list td span{
+	display: block;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.emailval input{
+	width:100%;
+	background:#fff;
+	border:1px solid #999;
+	height:20px;
+}
+.sspan{
+	width:40px;
+}
+.pspan{
+	width:130px;
+}
+.tspan{
+	width:600px;
+}
+.tmspan{
+	width:130px;
+}

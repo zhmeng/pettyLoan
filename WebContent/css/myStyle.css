@@ -1,0 +1,11 @@
+.FileUploadProgress_MainDiv     { border-width:1px; border-style:solid; border-color:#000000; background-color:#F0F0F0; padding:3px; padding-top:5px; width:500px;}
+.FileUploadProgress_Primary     { font-family:verdana; font-size:12px; font-weight:bold; margin:2px;}
+.FileUploadProgress_Secondary   { font-family:verdana; font-size:12px; font-weight:bold; margin:2px;}
+.FileUploadProgress_Status      { font-family:verdana; font-size:12px; font-weight:bold; margin:2px;}
+.FileUploadProgress_Current     { font-family:verdana; font-size:12px; color:#0000ff; margin:2px;}
+.FileUploadProgress_Bar         { width:100%; background-image: url("remainder1.gif"); margin:0px; margin-left:2px; margin-right:2px; background-color:#F0F0F0; background-repeat: repeat-x;}
+.FileUploadProgress_ProgressBar { background-image: url("progress3.gif"); height:21px; background-repeat: repeat-x; }
+.FileUploadProgress_UploadedListFileName        { font-family:verdana; font-size:12px; font-weight:bold; color:#009999;}
+.FileUploadProgress_UploadedListFileText        { font-family:verdana; font-size:12px; color:#FF0000;}
+.FileUploadProgress_UploadedListTable           { margin:2px;}
+.FileUploadProgress_UploadedListRow                     {}
